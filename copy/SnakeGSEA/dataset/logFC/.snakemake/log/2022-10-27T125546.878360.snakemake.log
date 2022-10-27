@@ -1,0 +1,121 @@
+Building DAG of jobs...
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m1.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m1.all.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m1.all.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m1.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.all.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.all.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cgp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cgp.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cgp.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cgp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.biocarta.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.biocarta.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.biocarta.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.biocarta.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.reactome.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.reactome.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.reactome.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.reactome.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.wikipathways.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.wikipathways.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.wikipathways.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.wikipathways.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.all.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.all.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.gtrd.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.gtrd.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.gtrd.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.gtrd.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.mirdb.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.mirdb.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.mirdb.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.mirdb.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.all.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.all.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.bp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.bp.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.bp.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.bp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.cc.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.cc.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.cc.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.cc.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.mf.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.mf.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.mf.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.mf.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.mpt.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.mpt.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.mpt.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.mpt.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m8.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m8.all.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m8.all.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m8.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm//sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.v2022.1.Mm.symbols.gmt.gz contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count    min threads    max threads
+---------------------  -------  -------------  -------------
+fGSEA_Rmd_template           1              1              1
+multi_fGSEA_link_html        1              1              1
+publish                      1              1              1
+total                        3              1              1
+
+Select jobs to execute...
+
+[Thu Oct 27 12:55:47 2022]
+rule fGSEA_Rmd_template:
+    input: ../../local/src/fGSEA_Rmd_template.Rmd
+    output: fGSEA_Rmd_template.Rmd
+    jobid: 44
+    resources: tmpdir=/sto1/tmp
+
+[Thu Oct 27 12:55:47 2022]
+Finished job 44.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Thu Oct 27 12:55:47 2022]
+rule multi_fGSEA_link_html:
+    input: multi_GSEA.link.header_added.gz, fGSEA_Rmd_template.Rmd
+    output: multi_GSEA.html
+    jobid: 43
+    resources: tmpdir=/sto1/tmp
+
+[Thu Oct 27 12:56:26 2022]
+Finished job 43.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Thu Oct 27 12:56:26 2022]
+rule publish:
+    input: multi_GSEA.link.header_added.xlsx, multi_GSEA.html, rnk_md5sum.txt
+    output: gsea_publish_done
+    jobid: 0
+    resources: tmpdir=/sto1/tmp
+
+[Thu Oct 27 12:57:40 2022]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC/.snakemake/log/2022-10-27T125546.878360.snakemake.log

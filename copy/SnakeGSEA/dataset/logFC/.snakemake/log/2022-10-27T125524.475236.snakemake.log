@@ -1,0 +1,3 @@
+WorkflowError:
+Workflow defines configfile config.yaml but it is not present or accessible.
+  File "/sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC/Snakefile", line 3, in <module>

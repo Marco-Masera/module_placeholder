@@ -1,0 +1,76 @@
+Building DAG of jobs...
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m1.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cgp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.biocarta.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.reactome.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m2.cp.wikipathways.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.gtrd.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m3.mirdb.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.bp.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.cc.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.mf.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.go.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m5.mpt.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/m8.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count    min threads    max threads
+---------------------  -------  -------------  -------------
+all                          1              1              1
+header_added_gz              1              1              1
+multi_fGSEA_link             1              1              1
+multi_fGSEA_link_html        1              1              1
+publish                      1              1              1
+tab_to_xlsx                  1              1              1
+total                        6              1              1
+
+Select jobs to execute...
+
+[Wed Oct 26 18:34:34 2022]
+rule multi_fGSEA_link:
+    input: multi_GSEA.gz, rnk_md5sum.txt
+    output: multi_GSEA.link.gz
+    jobid: 2
+    resources: tmpdir=/sto1/tmp
+
+
+		zcat multi_GSEA.gz 		| translate -a -r <(tr " " "\t" < rnk_md5sum.txt | cut -f3- | sed "s/.rnk//") 1  		| bawk '{HTTP="http://"; if(length($3)>100){HTTP=""} print $1~9, 			HTTP "molinerislab.shinyapps.io/shinysea/?rnk=" $10 "&geneset=" $2 "_" $3 "&gseaParam=" 0, 			HTTP "www.gsea-msigdb.org/gsea/msigdb/geneset_page.jsp?geneSetName=" $3}' 		| gzip > multi_GSEA.link.gz
+	
+[Wed Oct 26 18:34:34 2022]
+Finished job 2.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Wed Oct 26 18:34:34 2022]
+rule header_added_gz:
+    input: multi_GSEA.link.gz
+    output: multi_GSEA.link.header_added.gz
+    jobid: 1
+    wildcards: file=multi_GSEA.link
+    resources: tmpdir=/sto1/tmp
+
+
+		(bawk -M multi_GSEA.link.gz | cut -f 2 | transpose; zcat multi_GSEA.link.gz ) | gzip > multi_GSEA.link.header_added.gz
+	
+[Wed Oct 26 18:34:41 2022]
+Error in rule header_added_gz:
+    jobid: 1
+    output: multi_GSEA.link.header_added.gz
+    shell:
+        
+		(bawk -M multi_GSEA.link.gz | cut -f 2 | transpose; zcat multi_GSEA.link.gz ) | gzip > multi_GSEA.link.header_added.gz
+	
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job header_added_gz since they might be corrupted:
+multi_GSEA.link.header_added.gz
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC_Pval/.snakemake/log/2022-10-26T183433.564413.snakemake.log

@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+run_fgsea        1              1              1
+total            1              1              1
+
+Select jobs to execute...
+
+[Wed Oct 26 17:40:33 2022]
+rule run_fgsea:
+    input: c7.all.gmt, edger.condition.logFC_pval.rnk
+    output: fGSEA_Results/edger.condition.logFC_pval.rnk.c7.all.fGSEA.tab
+    jobid: 0
+    wildcards: rnk_file=edger.condition.logFC_pval, gmt_file=c7.all
+    resources: tmpdir=/sto1/tmp
+
+
+		set +u; source /sto1/ref/miniconda2/etc/profile.d/conda.sh ; conda activate ; conda activate rstudio_Rv4.0.3; export LD_LIBRARY_PATH=/sto1/ref/miniconda2/envs/rstudio_Rv4.0.3/jre/lib/amd64/server; 		Rscript ../../local/bin/fgsea.CommandLine.R 			-g c7.all.gmt 			-r edger.condition.logFC_pval.rnk 			-n 1000 			-b 5000 			-s 5 			-d fGSEA_Results 			-l Leading_Edge 			--gseaParam 0
+	
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 191 of /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC_Pval/Snakefile:
+Job Missing files after 5 seconds:
+fGSEA_Results/edger.condition.logFC_pval.rnk.c7.all.fGSEA.tab
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 0 completed successfully, but some output files are missing. 0
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC_Pval/.snakemake/log/2022-10-26T174027.963463.snakemake.log

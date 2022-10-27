@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 350 of /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/Snakefile:
+Missing input files for rule fGSEA_Rmd_template:
+../../../../local/src/fGSEA_Rmd_template.Rmd

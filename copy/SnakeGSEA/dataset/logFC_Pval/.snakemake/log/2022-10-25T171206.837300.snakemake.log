@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Job stats:
+job                      count    min threads    max threads
+---------------------  -------  -------------  -------------
+all                          1              1              1
+create_gmt                   2              1              1
+fGSEA_Rmd_template           1              1              1
+header_added_gz              1              1              1
+mdsum_file                   1              1              1
+multi_fGSEA                  1              1              1
+multi_fGSEA_link             1              1              1
+multi_fGSEA_link_html        1              1              1
+publish                      1              1              1
+run_fgsea                    4              1              1
+tab_to_xlsx                  1              1              1
+total                       15              1              1
+
+
+[Tue Oct 25 17:12:07 2022]
+rule mdsum_file:
+    input: pippo.rnk, pluto.rnk
+    output: rnk_md5sum.txt
+    jobid: 10
+    resources: tmpdir=/sto1/tmp
+
+
+		for i in $(ls *rnk); do 			touch -a rnk_md5sum.txt; 			a=$PWD'/'$i; 			b=$(md5sum $a | tr " " "\t" | cut -f 1); 			echo | bawk -v b=$b -v i=$i '{print "ln -s "i" ash_rnk-"b}' >> rnk_md5sum.txt; 		done; 		cat rnk_md5sum.txt | sh
+	
+
+[Tue Oct 25 17:12:07 2022]
+rule fGSEA_Rmd_template:
+    input: ../../local/src/fGSEA_Rmd_template.Rmd
+    output: fGSEA_Rmd_template.Rmd
+    jobid: 13
+    resources: tmpdir=/sto1/tmp
+
+
+		cp ../../local/src/fGSEA_Rmd_template.Rmd fGSEA_Rmd_template.Rmd
+	
+
+[Tue Oct 25 17:12:07 2022]
+rule create_gmt:
+    input: /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/h.all.v7.5.1.symbols.gmt.gz
+    output: h.all.gmt
+    jobid: 5
+    wildcards: gene_set=h.all
+    resources: tmpdir=/sto1/tmp
+
+
+		gunzip < /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/h.all.v7.5.1.symbols.gmt.gz > h.all.gmt
+	
+
+[Tue Oct 25 17:12:07 2022]
+rule create_gmt:
+    input: /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/c5.go.bp.v7.5.1.symbols.gmt.gz
+    output: c5.go.bp.gmt
+    jobid: 7
+    wildcards: gene_set=c5.go.bp
+    resources: tmpdir=/sto1/tmp
+
+
+		gunzip < /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/c5.go.bp.v7.5.1.symbols.gmt.gz > c5.go.bp.gmt
+	
+
+[Tue Oct 25 17:12:07 2022]
+rule run_fgsea:
+    input: c5.go.bp.gmt, pluto.rnk
+    output: fGSEA_Results/pluto.rnk.c5.go.bp.fGSEA.tab
+    jobid: 9
+    wildcards: rnk_file1=pluto, gmt_file=c5.go.bp
+    resources: tmpdir=/sto1/tmp
+
+RuleException in line 185 of /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/Snakefile:
+'Wildcards' object has no attribute 'dgetool'

@@ -1,0 +1,3 @@
+WildcardError:
+No values given for wildcard 'rnk_file'.
+  File "/sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/Snakefile", line 257, in <module>

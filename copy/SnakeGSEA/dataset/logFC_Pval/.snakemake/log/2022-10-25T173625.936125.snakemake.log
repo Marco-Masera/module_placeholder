@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 191 of /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/Snakefile:
+Missing input files for rule run_fgsea:
+edger.condition.logFC_pval.rnk.rnk

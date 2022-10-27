@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+test         1              1              1
+total        1              1              1
+
+Select jobs to execute...
+
+[Tue Oct 25 17:08:50 2022]
+rule test:
+    jobid: 0
+    resources: tmpdir=/sto1/tmp
+
+[Tue Oct 25 17:08:51 2022]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/.snakemake/log/2022-10-25T170850.311942.snakemake.log

@@ -1,0 +1,5 @@
+Building DAG of jobs...
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/c7.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+MissingInputException in line 179 of /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC_Pval/Snakefile:
+Missing input files for rule create_gmt:
+/sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/c7.all.v2022.1.Mm.symbols.gmt

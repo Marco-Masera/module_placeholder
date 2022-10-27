@@ -1,0 +1,28 @@
+Building DAG of jobs...
+File path /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt contains double '/'. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+create_gmt        1              1              1
+total             1              1              1
+
+Select jobs to execute...
+
+[Wed Oct 26 18:31:33 2022]
+rule create_gmt:
+    input: /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt
+    output: mh.all.gmt
+    jobid: 0
+    wildcards: gene_set=mh.all
+    resources: tmpdir=/sto1/tmp
+
+
+		ln -s /sto1/ref/bioinfotree/task//msigdb/dataset/v2022.1.Mm/mh.all.v2022.1.Mm.symbols.gmt mh.all.gmt
+	
+[Wed Oct 26 18:31:33 2022]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC_Pval/.snakemake/log/2022-10-26T183133.228218.snakemake.log

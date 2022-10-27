@@ -1,0 +1,169 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count    min threads    max threads
+---------------------  -------  -------------  -------------
+all                          1              1              1
+create_gmt                   3              1              1
+fGSEA_Rmd_template           1              1              1
+header_added_gz              1              1              1
+multi_fGSEA                  1              1              1
+multi_fGSEA_link             1              1              1
+multi_fGSEA_link_html        1              1              1
+publish                      1              1              1
+run_fgsea                    4              1              1
+tab_to_xlsx                  1              1              1
+total                       15              1              1
+
+Select jobs to execute...
+
+[Tue Oct 25 17:48:38 2022]
+rule run_fgsea:
+    input: c4.cgn.gmt, edger.condition.logFC_pval.rnk
+    output: fGSEA_Results/edger.condition.logFC_pval.rnk.c4.cgn.fGSEA.tab
+    jobid: 25
+    wildcards: rnk_file=edger.condition.logFC_pval, gmt_file=c4.cgn
+    resources: tmpdir=/sto1/tmp
+
+
+		set +u; source /sto1/ref/miniconda2/etc/profile.d/conda.sh ; conda activate ; conda activate rstudio_Rv4.0.3; export LD_LIBRARY_PATH=/sto1/ref/miniconda2/envs/rstudio_Rv4.0.3/jre/lib/amd64/server; 		Rscript ../../local/bin/fgsea.CommandLine.R 			-g c4.cgn 			-r edger.condition.logFC_pval 			-n 1000 			-b 5000 			-s 5 			-d fGSEA_Results 			-l Leading_Edge 			--gseaParam 0
+	
+
+[Tue Oct 25 17:48:38 2022]
+rule fGSEA_Rmd_template:
+    input: ../../local/src/fGSEA_Rmd_template.Rmd
+    output: fGSEA_Rmd_template.Rmd
+    jobid: 42
+    resources: tmpdir=/sto1/tmp
+
+
+		cp ../../local/src/fGSEA_Rmd_template.Rmd fGSEA_Rmd_template.Rmd
+	
+
+[Tue Oct 25 17:48:38 2022]
+rule create_gmt:
+    input: /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/c2.cp.biocarta.v7.5.1.symbols.gmt.gz
+    output: c2.cp.biocarta.gmt
+    jobid: 14
+    wildcards: gene_set=c2.cp.biocarta
+    resources: tmpdir=/sto1/tmp
+
+
+		gunzip < /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/c2.cp.biocarta.v7.5.1.symbols.gmt.gz > c2.cp.biocarta.gmt
+	
+
+[Tue Oct 25 17:48:38 2022]
+rule create_gmt:
+    input: /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/c2.cp.kegg.v7.5.1.symbols.gmt.gz
+    output: c2.cp.kegg.gmt
+    jobid: 16
+    wildcards: gene_set=c2.cp.kegg
+    resources: tmpdir=/sto1/tmp
+
+
+		gunzip < /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/c2.cp.kegg.v7.5.1.symbols.gmt.gz > c2.cp.kegg.gmt
+	
+
+[Tue Oct 25 17:48:38 2022]
+rule create_gmt:
+    input: /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/h.all.v7.5.1.symbols.gmt.gz
+    output: h.all.gmt
+    jobid: 5
+    wildcards: gene_set=h.all
+    resources: tmpdir=/sto1/tmp
+
+
+		gunzip < /sto1/ref/bioinfotree/task/msigdb/dataset/v7.5.1/h.all.v7.5.1.symbols.gmt.gz > h.all.gmt
+	
+[Tue Oct 25 17:48:38 2022]
+Finished job 42.
+1 of 15 steps (7%) done
+[Tue Oct 25 17:48:38 2022]
+Finished job 14.
+2 of 15 steps (13%) done
+Select jobs to execute...
+
+[Tue Oct 25 17:48:38 2022]
+rule run_fgsea:
+    input: c2.cp.biocarta.gmt, edger.condition.logFC_pval.rnk
+    output: fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cp.biocarta.fGSEA.tab
+    jobid: 13
+    wildcards: rnk_file=edger.condition.logFC_pval, gmt_file=c2.cp.biocarta
+    resources: tmpdir=/sto1/tmp
+
+
+		set +u; source /sto1/ref/miniconda2/etc/profile.d/conda.sh ; conda activate ; conda activate rstudio_Rv4.0.3; export LD_LIBRARY_PATH=/sto1/ref/miniconda2/envs/rstudio_Rv4.0.3/jre/lib/amd64/server; 		Rscript ../../local/bin/fgsea.CommandLine.R 			-g c2.cp.biocarta 			-r edger.condition.logFC_pval 			-n 1000 			-b 5000 			-s 5 			-d fGSEA_Results 			-l Leading_Edge 			--gseaParam 0
+	
+[Tue Oct 25 17:48:38 2022]
+Finished job 5.
+3 of 15 steps (20%) done
+Select jobs to execute...
+
+[Tue Oct 25 17:48:38 2022]
+rule run_fgsea:
+    input: h.all.gmt, edger.condition.logFC_pval.rnk
+    output: fGSEA_Results/edger.condition.logFC_pval.rnk.h.all.fGSEA.tab
+    jobid: 4
+    wildcards: rnk_file=edger.condition.logFC_pval, gmt_file=h.all
+    resources: tmpdir=/sto1/tmp
+
+
+		set +u; source /sto1/ref/miniconda2/etc/profile.d/conda.sh ; conda activate ; conda activate rstudio_Rv4.0.3; export LD_LIBRARY_PATH=/sto1/ref/miniconda2/envs/rstudio_Rv4.0.3/jre/lib/amd64/server; 		Rscript ../../local/bin/fgsea.CommandLine.R 			-g h.all 			-r edger.condition.logFC_pval 			-n 1000 			-b 5000 			-s 5 			-d fGSEA_Results 			-l Leading_Edge 			--gseaParam 0
+	
+[Tue Oct 25 17:48:38 2022]
+Finished job 16.
+4 of 15 steps (27%) done
+Select jobs to execute...
+
+[Tue Oct 25 17:48:38 2022]
+rule run_fgsea:
+    input: c2.cp.kegg.gmt, edger.condition.logFC_pval.rnk
+    output: fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cp.kegg.fGSEA.tab
+    jobid: 15
+    wildcards: rnk_file=edger.condition.logFC_pval, gmt_file=c2.cp.kegg
+    resources: tmpdir=/sto1/tmp
+
+
+		set +u; source /sto1/ref/miniconda2/etc/profile.d/conda.sh ; conda activate ; conda activate rstudio_Rv4.0.3; export LD_LIBRARY_PATH=/sto1/ref/miniconda2/envs/rstudio_Rv4.0.3/jre/lib/amd64/server; 		Rscript ../../local/bin/fgsea.CommandLine.R 			-g c2.cp.kegg 			-r edger.condition.logFC_pval 			-n 1000 			-b 5000 			-s 5 			-d fGSEA_Results 			-l Leading_Edge 			--gseaParam 0
+	
+[Tue Oct 25 17:48:46 2022]
+Finished job 25.
+5 of 15 steps (33%) done
+[Tue Oct 25 17:48:46 2022]
+Finished job 15.
+6 of 15 steps (40%) done
+[Tue Oct 25 17:48:46 2022]
+Finished job 4.
+7 of 15 steps (47%) done
+[Tue Oct 25 17:48:47 2022]
+Finished job 13.
+8 of 15 steps (53%) done
+Select jobs to execute...
+
+[Tue Oct 25 17:48:47 2022]
+rule multi_fGSEA:
+    input: fGSEA_Results/edger.condition.logFC_pval.rnk.h.all.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c5.go.bp.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c1.all.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cgp.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cp.biocarta.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cp.kegg.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cp.reactome.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c2.cp.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c3.mir.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c3.tft.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c4.cgn.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c4.cm.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c5.go.mf.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c5.go.bp.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c5.go.cc.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c6.all.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c7.all.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.h.all.fGSEA.tab, fGSEA_Results/edger.condition.logFC_pval.rnk.c8.all.fGSEA.tab
+    output: multi_GSEA.gz
+    jobid: 3
+    resources: tmpdir=/sto1/tmp
+
+
+		matrix_reduce -t 'fGSEA_Results/*.rnk.*.fGSEA.tab' 		| tr ';' '\t' | grep -v 'nMoreExtreme' | gzip > multi_GSEA.gz
+	
+[Tue Oct 25 17:48:47 2022]
+Error in rule multi_fGSEA:
+    jobid: 3
+    output: multi_GSEA.gz
+    shell:
+        
+		matrix_reduce -t 'fGSEA_Results/*.rnk.*.fGSEA.tab' 		| tr ';' '\t' | grep -v 'nMoreExtreme' | gzip > multi_GSEA.gz
+	
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job multi_fGSEA since they might be corrupted:
+multi_GSEA.gz
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/.snakemake/log/2022-10-25T174838.278031.snakemake.log

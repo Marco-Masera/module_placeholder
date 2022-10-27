@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 173 of /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/logFC_Pval/Snakefile:
+Missing input files for rule create_gmt:
+/sto1/ref/bioinfotree/task/msigdb/dataset/v2022.1.Mm/c7.all.v2022.1.Mm.symbols.gmt.gz

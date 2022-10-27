@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+run_fgsea        1              1              1
+total            1              1              1
+
+Select jobs to execute...
+
+[Tue Oct 25 18:01:18 2022]
+rule run_fgsea:
+    input: c7.all.gmt, edger.condition.logFC_pval.rnk
+    output: fGSEA_Results/edger.condition.logFC_pval.rnk.c7.all.fGSEA.tab
+    jobid: 0
+    wildcards: rnk_file=edger.condition.logFC_pval, gmt_file=c7.all
+    resources: tmpdir=/sto1/tmp
+
+
+		set +u; source /sto1/ref/miniconda2/etc/profile.d/conda.sh ; conda activate ; conda activate rstudio_Rv4.0.3; export LD_LIBRARY_PATH=/sto1/ref/miniconda2/envs/rstudio_Rv4.0.3/jre/lib/amd64/server; 		Rscript ../../local/bin/fgsea.CommandLine.R 			-g c7.all 			-r edger.condition.logFC_pval 			-n 1000 			-b 5000 			-s 5 			-d fGSEA_Results 			-l Leading_Edge 			--gseaParam 0
+	
+[Tue Oct 25 18:01:27 2022]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /sto1/epigen/Follenzi_BMEC/dataset/v1_sample_removed/DGE/SnakeGSEA/dataset/v1/.snakemake/log/2022-10-25T180118.017979.snakemake.log
